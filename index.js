@@ -14,3 +14,11 @@ function nameToAttributes(array) {
     return { firstName: elementFirst, lastName: elementLast };
   });
 }
+
+function attributesToPhrase(array) {
+  return array.map(function(element) {
+    let name = element.name
+    let hometown = element.hometown
+    return { name is from hometown };
+  });
+}
